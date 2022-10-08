@@ -5,56 +5,56 @@ class ColorForground
 {
 private:
     // Properties
-   const string bold_test = "\033[1;45mbold  test\033[0m\n";
+   
+    const string forgroundBoldRed = "\033[1;31mforground bold red \033[0m\n";
+    const string forgroundBoldGreen = "\033[1;32mforground bold  Green\033[0m\n";
+    const string forgroundBoldYellow = "\033[1;33mforground bold  Yello\033[0m\n";
+    const string forgroundBoldBlue = "\033[1;34mforground bold Blue\033[0m\n";
+    const string forgroundBoldRose = "\033[1;35mforgound bold  Rose\033[0m\n";
+    const string forgroundBoldSky = "\033[1;36mforground bold  Sky\033[0m\n";
+    const string forgroundBoldWhite = "\033[1;37mforground bold  white\033[0m\n";
+    //const string forgroundBoldBlack = "";
     
-    const string bold_red = "\033[1;31mbold Red \033[0m\n";
-    const string bold_green = "\033[1;32mbold  Green\033[0m\n";
-    const string bold_yellow = "\033[1;33mbold  Yello\033[0m\n";
-    const string bold_blue = "\033[1;34mred Blue\033[0m\n";
-    const string bold_rose = "\033[1;35mbold  Rose\033[0m\n";
-    const string bold_sky = "\033[1;36mbold  Sky\033[0m\n";
-    const string bold_white = "\033[1;37mbold  white\033[0m\n";
     
-    const string bold_black = "black";
+
+    //const string forgroundTest = "";
+    
 
 public:
     // Properties
     string test = "testing";
 
     // Methods
-   void printBoldRed(){
-        cout << bold_red ;}
+   void printForgroundRed(){
+        cout << forgroundBoldRed ;}
 
-   void  printBoldBlue(){
-        cout << bold_blue ;}
+   void  printForgroundBlue(){
+        cout << forgroundBoldBlue ;}
 
-    void printBoldBlack(){
-        cout << bold_black;
+    void printForgroundGreen(){
+        cout << forgroundBoldGreen;
     }
 
-    void printBoldGreen(){
-        cout << bold_green;
+    void printForgroundYellow(){
+        cout << forgroundBoldYellow;
     }
 
-    void printBoldYellow(){
-        cout << bold_yellow;
+   void printForgroundSky(){
+        cout << forgroundBoldSky;
     }
 
-   void printBoldSky(){
-        cout << bold_sky;
+    void printForgroundRose(){
+        cout << forgroundBoldRose;
     }
 
-    void printBoldRose(){
-        cout << bold_rose;
-    }
-
-    void printWhite(){
-         cout << bold_white;
+    void printForgroundWhite(){
+         cout << forgroundBoldWhite;
      }
 
-    void printTest(){
-         cout << bold_test;
-     }
+//   void printForgroundBlack(){
+//          cout << forgroundBoldBlack;
+//      }
+
 
 };
 

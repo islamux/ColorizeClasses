@@ -4,35 +4,40 @@
 using namespace std;
 
 #include "color_forground.h"
+#include "color_background.h"
 #include "star_class.h"
 
 int main (){
 
     // Initial Classes
-     ColorForground color;
+     ColorForground colorFor;
+     ColorBackground colorBack;
 
     PrintShapes shape;
  
-    color.printBoldRed();
+
+    // Color : Forground 
+    colorFor.printForgroundRed();
+    colorBack.printBackGroundBoldRed();
     shape.printStart();
     
-    color.printBoldBlue();
-    shape.printStart();
+    // colorFor.printForgroundBlue();
+    // shape.printStart();
 
-    color.printBoldYellow();
-    shape.printStart();  
+    // colorFor.printForgroundYellow();
+    // shape.printStart();  
 
-    color.printBoldRose();
-    shape.printStart();  
+    // colorFor.printForgroundRose();
+    // shape.printStart();  
 
-    color.printBoldSky();
-    shape.printStart();
+    // colorFor.printForgroundSky();
+    // shape.printStart();
 
-    color.printWhite();
-    shape.printStart();
+    // colorFor.printForgroundWhite();
+    // shape.printStart();
 
-    color.printTest();
-    shape.printStart();
+    // color.printTest();
+    // shape.printStart();
 
     return 0;
 }
