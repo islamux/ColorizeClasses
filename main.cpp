@@ -3,8 +3,8 @@
 
 using namespace std;
 
-#include "color_forground.h"
-#include "color_background.h"
+#include "colorize_background.h"
+#include "colorize_forground.h"
 #include "star_class.h"
 
 int main (){
